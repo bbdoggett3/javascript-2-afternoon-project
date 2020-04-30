@@ -102,6 +102,10 @@ var user2 = {
 */
 
 //Code Here
+let userCopy = user2;
+
+userCopy.name = "Bryan G. Smith";
+userCopy.email = "bryan.smith@devmounta.in";
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////

@@ -93,7 +93,7 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 
 //Code Here
 function evenFinder(nums) {
-  let evenCatcher = [];                        //I created my variable to catch the even numbers in an array.
+  let results = [];                            //I created my variable to catch the even numbers in an array.
 
   for(let i = 0; i < nums.length; i++) {       //made a for loop to increment through.
     if(nums[i] % 2 === 0) {                    //Did the modulus to check if it's even.
@@ -126,7 +126,12 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
 */
 
 //Code Here
+function divider(numArr) {
+  let results = [];
+  
 
+  return 
+}
 
 
 ////////// PROBLEM 7 //////////

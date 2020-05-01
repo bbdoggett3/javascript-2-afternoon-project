@@ -117,6 +117,9 @@ userCopy.email = "bryan.smith@devmounta.in";
 */
 
 //Code Here
+let methodCollection = {
+
+}
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
@@ -124,12 +127,16 @@ userCopy.email = "bryan.smith@devmounta.in";
 */
 
 //Code Here
+methodCollection.alertHello = function() { alert('hello');}
+methodCollection.logHello = function() {console.log('hello');}
 
 /*
   Now call your alertHello and logHello methods.
 */
 
 //Code Here
+methodCollection.alertHello();
+methodCollection.logHello();
 
 ////////// PROBLEM 6 //////////
 
@@ -139,6 +146,19 @@ userCopy.email = "bryan.smith@devmounta.in";
 */
 
 //Code Here
+function makePerson(name, birth, ssn) {
+  let person = {
+    name: name, 
+    birthday: birth, 
+    ssn: ssn
+  }
+
+  // let obj = person.name && person.birthday && person.ssn; 
+  return person;
+
+}
+
+makePerson("Ben", "3-8-93", "In your dreams")
 
 ////////// PROBLEM 7 //////////
 
@@ -148,3 +168,14 @@ userCopy.email = "bryan.smith@devmounta.in";
 */
 
 //Code Here
+function makeCard(cardNum, expDate, secCode) {
+  let creditCard = {
+    cardNumber: cardNum,
+    expirationDate: expDate,
+    securityCode: secCode
+  }
+
+  return creditCard;
+}
+
+makeCard("45432234323", "08/23", "513");
